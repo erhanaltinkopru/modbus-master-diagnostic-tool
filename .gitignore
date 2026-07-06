@@ -1,0 +1,52 @@
+# Visual Studio / .NET
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.log
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+project.lock.json
+
+# Test results
+TestResults/
+*.trx
+
+# Publish
+publish/
+PublishOutput/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# Mono auto-generated
+mono_crash.*
+
+# OS generated
+Thumbs.db
+desktop.ini
+
+# Other
+*.cache
+*.pid
+local.settings.json
